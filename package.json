@@ -1,0 +1,21 @@
+{
+  "name": "theme-one-monokai-br",
+  "displayName": "theme-one-monokai-br",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Monokai BR",
+        "uiTheme": "vs-dark",
+        "path": "./themes/One Monokai BR-color-theme.json"
+      }
+    ]
+  }
+}
