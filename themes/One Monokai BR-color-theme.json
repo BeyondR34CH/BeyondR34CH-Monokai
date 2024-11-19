@@ -238,7 +238,7 @@
                 "entity.name.type.struct",
             ],
             "settings": {
-                "foreground": "#7aa0f2"
+                "foreground": "#76a1fe"
             }
         },
         {
@@ -251,7 +251,7 @@
                 "variable.other.enummember",
             ],
             "settings": {
-                "foreground": "#8cb3ca"
+                "foreground": "#74bec7"
             }
         },
         {
@@ -267,7 +267,7 @@
                 "markup.changed",
             ],
             "settings": {
-                "foreground": "#99b7d7"
+                "foreground": "#9bbbdb"
             }
         },
         {
