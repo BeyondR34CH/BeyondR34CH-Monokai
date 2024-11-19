@@ -2,7 +2,7 @@
   "name": "theme-one-monokai-br",
   "displayName": "theme-one-monokai-br",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.93.0"
   },
