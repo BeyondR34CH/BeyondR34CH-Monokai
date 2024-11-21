@@ -1,20 +1,38 @@
 {
   "name": "theme-one-monokai-br",
-  "displayName": "theme-one-monokai-br",
-  "description": "",
+  "displayName": "One Monokai BR Theme",
+  "description": "Dark theme for Visual Studio Code based on One Monokai.",
   "version": "0.0.2",
-  "engines": {
-    "vscode": "^1.93.0"
-  },
+	"publisher": "BeyondR34CH",
+	"icon": "./assets/one-monokai-br.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BeyondR34CH/One-Monokai-BR.git"
+	},
   "categories": [
     "Themes"
   ],
+	"keywords": [
+		"theme",
+		"one",
+		"monokai",
+		"unity",
+		"unity3d",
+		"c#",
+		"csharp",
+		"dotnet",
+		".net",
+		"gamedev"
+	],
+  "engines": {
+    "vscode": "^1.93.0"
+  },
   "contributes": {
     "themes": [
       {
         "label": "One Monokai BR",
         "uiTheme": "vs-dark",
-        "path": "./themes/One Monokai BR-color-theme.json"
+        "path": "./themes/one-monokai-br-color-theme.json"
       }
     ]
   }
