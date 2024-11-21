@@ -3,9 +3,9 @@
     "colors": {
         "activityBar.background": "#2f333d",
         "activityBar.foreground": "#d7dae0",
-        "activityBarBadge.background": "#007ec6",
+        "activityBarBadge.background": "#207ed6",
         "activityBarBadge.foreground": "#f8fafd",
-        "button.background": "#007ec6",
+        "button.background": "#207ed6",
         "diffEditor.insertedTextBackground": "#00809b33",
         "dropdown.background": "#1d1f23",
         "dropdown.border": "#181a1f",
@@ -56,7 +56,7 @@
         "tab.inactiveBackground": "#21252b",
         "terminal.foreground": "#abb2bf",
         "terminal.ansiBlack": "#2d3139",
-        "terminal.ansiBlue": "#007ec6",
+        "terminal.ansiBlue": "#61afef",
         "terminal.ansiGreen": "#98c379",
         "terminal.ansiYellow": "#e5c07b",
         "terminal.ansiCyan": "#80c0c4",
@@ -64,7 +64,7 @@
         "terminal.ansiRed": "#e06c75",
         "terminal.ansiWhite": "#d7dae0",
         "terminal.ansiBrightBlack": "#7f848e",
-        "terminal.ansiBrightBlue": "#007ec6",
+        "terminal.ansiBrightBlue": "#61afef",
         "terminal.ansiBrightGreen": "#98c379",
         "terminal.ansiBrightYellow": "#e5c07b",
         "terminal.ansiBrightCyan": "#80c0c4",
@@ -74,7 +74,7 @@
         "titleBar.activeBackground": "#282c34",
         "titleBar.activeForeground": "#9da5b4",
         "titleBar.inactiveBackground": "#282c34",
-        "titleBar.inactiveForeground": "#6b717d"
+        "titleBar.inactiveForeground": "#6b717d",
     },
     "tokenColors": [
         {
@@ -91,7 +91,7 @@
                 "variable.other.readwrite",
                 "entity.name.variable",
                 "support.type.property-name",
-                "entity.other.attribute-name"
+                "entity.other.attribute-name",
             ],
             "settings": {
                 "foreground": "#abb2bf",
@@ -156,6 +156,9 @@
                 "constant.numeric",
                 // 单位
                 "keyword.other.unit",
+                // 正则/转义字符
+                "string.regexp",
+				"constant.other",
             ],
             "settings": {
                 "foreground": "#c678dd",
@@ -234,24 +237,16 @@
         },
         {
             "scope": [
-                // 结构体
-                "entity.name.type.struct",
-            ],
-            "settings": {
-                "foreground": "#76a1fe"
-            }
-        },
-        {
-            "scope": [
                 // 常量
                 "variable.other.constant",
+                "variable.other.constant.property",
                 "entity.other.attribute-name.pseudo-class",
                 // 枚举
                 "entity.name.type.enum",
                 "variable.other.enummember",
             ],
             "settings": {
-                "foreground": "#74bec7"
+                "foreground": "#8396eb",
             }
         },
         {
@@ -259,15 +254,13 @@
                 // 属性
                 "variable.other.property",
                 "variable.other.object.property",
-                "variable.other.constant.property",
                 "support.constant.property",
                 "support.constant",
-                "constant.other",
                 // 笔记
                 "markup.changed",
             ],
             "settings": {
-                "foreground": "#9bbbdb"
+                "foreground": "#9fb8d6",
             }
         },
         {
@@ -321,14 +314,12 @@
         },
         {
             "scope": [
-                // 正则/转义字符
-                "string.regexp",
-                "constant.character",
                 // 嵌入式字符串
                 "string.embedded",
                 "punctuation.definition.interpolation",
                 "punctuation.definition.template-expression",
                 "punctuation.section.embedded",
+                "constant.character",
                 // 笔记
                 "markup.inline.raw",
             ],
@@ -338,9 +329,7 @@
         },
         {
             "scope": [
-                // 命名空间
-                "entity.name.namespace",
-                // 重载
+                // 运算符重载
                 "entity.name.function.member.overload",
                 // 命名空间(Tag)
                 "entity.name.tag.namespace",
@@ -369,10 +358,8 @@
         },
         {
             "scope": [
-                // 接口
-                "entity.name.type.interface",
-                // 委托
-                "entity.name.type.delegate",
+                // 结构体
+                "entity.name.type.struct",
                 // 笔记
                 "markup.underline",
             ],
@@ -402,6 +389,9 @@
         },
         "parameter": {
             "fontStyle": "italic",
+        },
+        "*.readonly": {
+            "foreground": "#8396eb",
         },
     }
 }
