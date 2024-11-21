@@ -83,6 +83,9 @@
                 "source",
                 "meta.embedded",
                 // 符号
+                "punctuation.parenthesis",
+                "punctuation.curlybrace",
+                "punctuation.squarebracket",
                 "punctuation.terminator",
                 "punctuation.separator",
                 "punctuation.section",
@@ -156,9 +159,6 @@
                 "constant.numeric",
                 // 单位
                 "keyword.other.unit",
-                // 正则/转义字符
-                "string.regexp",
-				"constant.other",
             ],
             "settings": {
                 "foreground": "#c678dd",
@@ -244,6 +244,9 @@
                 // 枚举
                 "entity.name.type.enum",
                 "variable.other.enummember",
+                // 正则/转义字符
+                "string.regexp",
+                "constant.other",
             ],
             "settings": {
                 "foreground": "#8396eb",
