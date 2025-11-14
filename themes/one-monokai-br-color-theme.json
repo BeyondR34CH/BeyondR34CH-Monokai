@@ -363,10 +363,6 @@
         },
         {
             "scope": [
-                // 注释文档名称
-                "comment.documentation.name",
-                // 注释
-                "comment",
                 // 笔记
                 "markup.italic",
             ],

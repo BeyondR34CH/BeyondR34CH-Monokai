@@ -2,7 +2,7 @@
   "name": "theme-one-monokai-br",
   "displayName": "One Monokai BR Theme",
   "description": "Dark theme for Visual Studio Code based on One Monokai.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "BeyondR34CH",
   "repository": {
     "type": "git",
