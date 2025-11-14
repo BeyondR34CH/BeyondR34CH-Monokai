@@ -89,12 +89,14 @@
                 "punctuation.terminator",
                 "punctuation.separator",
                 "punctuation.section",
-                "punctuation.definition.entity",
+                // "punctuation.definition.entity",
                 // 变量
                 "variable.other.readwrite",
                 "entity.name.variable",
                 "support.type.property-name",
                 "entity.other.attribute-name",
+                // 笔记
+                "text.html.markdown",
             ],
             "settings": {
                 "foreground": "#abb2bf",
@@ -114,6 +116,12 @@
             "scope": [
                 // 注释
                 "comment",
+                // 排除
+                "support.other.excluded",
+                // 笔记
+                "punctuation.definition.heading",
+                "punctuation.definition.bold",
+                "punctuation.definition.italic",
             ],
             "settings": {
                 "foreground": "#676f7d",
@@ -138,9 +146,6 @@
                 "storage.type.function",
                 // 注释文档名称
                 "comment.documentation.name",
-                // 笔记
-                "punctuation.definition.heading",
-                "punctuation.definition.bold",
                 // 仓库
                 "storage",
                 // JSON
@@ -148,6 +153,8 @@
                 // 关键字(Tag)
                 "meta.tag",
                 "entity.other.keyframe-offset",
+                // 笔记
+                "markup.deleted",
             ],
             "settings": {
                 "foreground": "#e06c75",
@@ -174,6 +181,8 @@
                 "entity.other.attribute",
                 "entity.name.scope-resolution",
                 "entity.name.class",
+                "variable.other.object",
+                "variable.other.constant.object",
                 "storage.type.numeric.go",
                 "storage.type.byte.go",
                 "storage.type.boolean.go",
@@ -228,8 +237,8 @@
                 "entity.other.attribute-name.scss",
                 // 笔记
                 "markup.heading",
-                "punctuation.definition.quote",
-                "punctuation.definition.list",
+                "markup.changed",
+                "markup.underline.link",
             ],
             "settings": {
                 "foreground": "#61afef",
@@ -241,12 +250,15 @@
                 "variable.other.constant",
                 "variable.other.constant.property",
                 "entity.other.attribute-name.pseudo-class",
+                "entity.name.variable.enum-member",
                 // 枚举
                 "entity.name.type.enum",
                 "variable.other.enummember",
                 // 正则/转义字符
                 "string.regexp",
                 "constant.other",
+                // 笔记
+                "string.other.link.title.markdown",
             ],
             "settings": {
                 "foreground": "#8396eb",
@@ -260,7 +272,12 @@
                 "support.constant.property",
                 "support.constant",
                 // 笔记
-                "markup.changed",
+                "punctuation.definition.quote",
+                "punctuation.definition.list",
+                "markup.inline.raw",
+                "markup.fenced_code.block",
+                "punctuation.definition.table",
+                "punctuation.separator.table",
             ],
             "settings": {
                 "foreground": "#9fb8d6",
@@ -283,8 +300,6 @@
             "scope": [
                 // 形参
                 "variable.parameter",
-                // 笔记
-                "markup.deleted",
             ],
             "settings": {
                 "foreground": "#d19a66",
@@ -323,8 +338,7 @@
                 "punctuation.definition.template-expression",
                 "punctuation.section.embedded",
                 "constant.character",
-                // 笔记
-                "markup.inline.raw",
+                "constant.character.entity.named",
             ],
             "settings": {
                 "foreground": "#f9aa5f",
@@ -341,6 +355,7 @@
                 // 笔记
                 "markup.heading",
                 "markup.bold",
+                "punctuation.definition.table",
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -361,6 +376,16 @@
         },
         {
             "scope": [
+                // 笔记
+                "markup.italic markup.bold",
+                "markup.bold markup.italic",
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+            }
+        },
+        {
+            "scope": [
                 // 结构体
                 "entity.name.type.struct",
                 // 笔记
@@ -372,8 +397,6 @@
         },
         {
             "scope": [
-                // 排除
-                "support.other.excluded",
                 // 笔记
                 "markup.strikethrough",
             ],
@@ -393,8 +416,11 @@
         "parameter": {
             "fontStyle": "italic",
         },
-        "*.readonly": {
-            "foreground": "#8396eb",
-        },
+        "*.local": {
+            "foreground": "#abb2bf",
+        }
+        // "*.readonly": {
+        //     "foreground": "#8396eb",
+        // },
     }
 }
