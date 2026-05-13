@@ -1,5 +1,5 @@
 {
-    "name": "One Monokai BR",
+    "name": "BeyondR34CH Monokai",
     "colors": {
         "activityBar.background": "#2f333d",
         "activityBar.foreground": "#d7dae0",
@@ -95,7 +95,7 @@
                 "entity.name.variable",
                 "support.type.property-name",
                 "entity.other.attribute-name",
-                // 笔记
+                // Markdown
                 "text.html.markdown",
             ],
             "settings": {
@@ -118,7 +118,7 @@
                 "comment",
                 // 排除
                 "support.other.excluded",
-                // 笔记
+                // Markdown
                 "punctuation.definition.heading",
                 "punctuation.definition.bold",
                 "punctuation.definition.italic",
@@ -153,7 +153,28 @@
                 // 关键字(Tag)
                 "meta.tag",
                 "entity.other.keyframe-offset",
-                // 笔记
+                // Python
+                "keyword.control.python",
+                "storage.type.python",
+                // Rust
+                "keyword.control.rust",
+                "storage.type.rust",
+                // Kotlin
+                "keyword.control.kotlin",
+                "storage.type.kotlin",
+                // Swift
+                "keyword.control.swift",
+                "storage.type.swift",
+                // Go
+                "keyword.control.go",
+                "storage.type.go",
+                // Ruby
+                "keyword.control.ruby",
+                "storage.type.ruby",
+                // PHP
+                "keyword.control.php",
+                "storage.type.php",
+                // Markdown
                 "markup.deleted",
             ],
             "settings": {
@@ -235,7 +256,32 @@
                 "entity.other.attribute-name.pseudo-element.css",
                 "source.css.less entity.other.attribute-name.id",
                 "entity.other.attribute-name.scss",
-                // 笔记
+                // Python
+                "entity.name.type.class.python",
+                "entity.name.type.function.python",
+                "support.type.python",
+                // Rust
+                "entity.name.type.rust",
+                "entity.name.function.rust",
+                "support.type.rust",
+                // Kotlin
+                "entity.name.type.kotlin",
+                "entity.name.function.kotlin",
+                "support.type.kotlin",
+                // Swift
+                "entity.name.type.swift",
+                "entity.name.function.swift",
+                "support.type.swift",
+                // Go
+                "entity.name.type.go",
+                "entity.name.function.go",
+                // Ruby
+                "entity.name.type.module.ruby",
+                "entity.name.function.ruby",
+                // PHP
+                "entity.name.type.class.php",
+                "entity.name.function.php",
+                // Markdown
                 "markup.heading",
                 "markup.changed",
                 "markup.underline.link",
@@ -257,7 +303,21 @@
                 // 正则/转义字符
                 "string.regexp",
                 "constant.other",
-                // 笔记
+                // Python
+                "constant.language.python",
+                // Rust
+                "constant.language.rust",
+                // Kotlin
+                "constant.language.kotlin",
+                // Swift
+                "constant.language.swift",
+                // Go
+                "constant.language.go",
+                // Ruby
+                "constant.language.ruby",
+                // PHP
+                "constant.language.php",
+                // Markdown
                 "string.other.link.title.markdown",
             ],
             "settings": {
@@ -271,7 +331,21 @@
                 "variable.other.object.property",
                 "support.constant.property",
                 "support.constant",
-                // 笔记
+                // Python
+                "variable.other.property.python",
+                // Rust
+                "variable.other.property.rust",
+                // Kotlin
+                "variable.other.property.kotlin",
+                // Swift
+                "variable.other.property.swift",
+                // Go
+                "variable.other.property.go",
+                // Ruby
+                "variable.other.property.ruby",
+                // PHP
+                "variable.other.property.php",
+                // Markdown
                 "punctuation.definition.quote",
                 "punctuation.definition.list",
                 "markup.inline.raw",
@@ -291,6 +365,25 @@
                 "support.constant.handlebars",
                 "source.powershell variable.other.member",
                 "entity.name.operator.custom-literal",
+                // Python
+                "entity.name.function.python",
+                "meta.function-call.python",
+                // Rust
+                "entity.name.function.rust",
+                // Kotlin
+                "entity.name.function.kotlin",
+                // Swift
+                "entity.name.function.swift",
+                // Go
+                "entity.name.function.go",
+                // Ruby
+                "entity.name.function.ruby",
+                // PHP
+                "entity.name.function.php",
+                // JavaScript
+                "entity.name.function.js",
+                // TypeScript
+                "entity.name.function.ts",
             ],
             "settings": {
                 "foreground": "#98c379",
@@ -309,7 +402,7 @@
             "scope": [
                 // 事件
                 "variable.other.event",
-                // 笔记
+                // Markdown
                 "markup.inserted",
             ],
             "settings": {
@@ -325,6 +418,21 @@
                 "constant.other.symbol",
                 // 字符串(Tag)
                 "string.tag",
+                // Python
+                "string.quoted.single.python",
+                "string.quoted.double.python",
+                // Rust
+                "string.quoted.double.rust",
+                // Kotlin
+                "string.quoted.double.kotlin",
+                // Swift
+                "string.quoted.double.swift",
+                // Go
+                "string.quoted.double.go",
+                // Ruby
+                "string.quoted.double.ruby",
+                // PHP
+                "string.quoted.double.php",
             ],
             "settings": {
                 "foreground": "#e5c07b",
@@ -352,7 +460,7 @@
                 "entity.name.tag.namespace",
                 // 属性命名空间(Tag)
                 "entity.other.attribute-name.namespace",
-                // 笔记
+                // Markdown
                 "markup.heading",
                 "markup.bold",
                 "punctuation.definition.table",
@@ -363,7 +471,7 @@
         },
         {
             "scope": [
-                // 笔记
+                // Markdown
                 "markup.italic",
             ],
             "settings": {
@@ -372,7 +480,7 @@
         },
         {
             "scope": [
-                // 笔记
+                // Markdown
                 "markup.italic markup.bold",
                 "markup.bold markup.italic",
             ],
@@ -384,7 +492,7 @@
             "scope": [
                 // 结构体
                 "entity.name.type.struct",
-                // 笔记
+                // Markdown
                 "markup.underline",
             ],
             "settings": {
@@ -393,7 +501,7 @@
         },
         {
             "scope": [
-                // 笔记
+                // Markdown
                 "markup.strikethrough",
             ],
             "settings": {
@@ -414,9 +522,24 @@
         },
         "*.local": {
             "foreground": "#abb2bf",
-        }
+        },
         // "*.readonly": {
         //     "foreground": "#8396eb",
         // },
+        "function": {
+            "foreground": "#98c379",
+        },
+        "class": {
+            "foreground": "#61afef",
+        },
+        // "string": {
+        //     "foreground": "#e5c07b",
+        // },
+        "keyword": {
+            "foreground": "#e06c75",
+        },
+        "number": {
+            "foreground": "#c678dd",
+        },
     }
 }
